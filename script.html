@@ -1,0 +1,84 @@
+<html>
+<head>
+<h1>Monsieur Poulpe le soundboard</h1>
+<LINK href="monscript.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<audio id="audioPlayer_1">
+    <source src="cruel_dilemme.mp3">
+</audio>
+<audio id="audioPlayer_2">
+    <source src="betise.mp3">
+</audio>
+<audio id="audioPlayer_3">
+    <source src="biscuit.mp3">
+</audio>
+<audio id="audioPlayer_4">
+    <source src="cartouche.mp3">
+</audio>
+<audio id="audioPlayer_5">
+    <source src="cartouche_dans_son_cul.mp3">
+</audio>
+<audio id="audioPlayer_6">
+    <source src="chien.mp3">
+</audio>
+<audio id="audioPlayer_7">
+    <source src="coquelicot.mp3">
+</audio>
+<audio id="audioPlayer_8">
+    <source src="draguer.mp3">
+</audio>
+<audio id="audioPlayer_9">
+    <source src="minute_papillon.mp3">
+</audio>
+<audio id="audioPlayer_10">
+    <source src="mouai.mp3">
+</audio>
+<audio id="audioPlayer_11">
+    <source src="regle.mp3">
+</audio>
+<audio id="audioPlayer_12">
+    <source src="soiree_de_merde.mp3">
+</audio>
+<audio id="audioPlayer_13">
+    <source src="splendide.mp3">
+</audio>
+<audio id="audioPlayer_14">
+    <source src="tabouret.mp3">
+</audio>
+<audio id="audioPlayer_15">
+    <source src="tete_de_bite.mp3">
+</audio>
+<audio id="audioPlayer_16">
+    <source src="zookez.mp3">
+</audio>
+
+<button class="control" onclick="play('audioPlayer_1', this)">cruel dilemme !!</button>
+<button class="control" onclick="play('audioPlayer_2', this)">j'crois que j'ai fait une b&ecirctise..</button>
+<button class="control" onclick="play('audioPlayer_3', this)">Tremper son biscuit</button>
+<button class="control" onclick="play('audioPlayer_4', this)">Cartouche</button>
+<button class="control" onclick="play('audioPlayer_5', this)">Cartouche</button>
+<button class="control" onclick="play('audioPlayer_6', this)">Faut que j'm'achette un chien</button>
+<button class="control" onclick="play('audioPlayer_7', this)">Petit coquelicot</button>
+<button class="control" onclick="play('audioPlayer_8', this)">Draguer</button>
+<button class="control" onclick="play('audioPlayer_9', this)">Minute papillon</button>
+<button class="control" onclick="play('audioPlayer_10', this)">Mouai</button>
+<button class="control" onclick="play('audioPlayer_11', this)">Les r&egravegles</button>
+<button class="control" onclick="play('audioPlayer_12', this)">Soir&eacutee de merde</button>
+<button class="control" onclick="play('audioPlayer_13', this)">Splendide</button>
+<button class="control" onclick="play('audioPlayer_14', this)">tabouret</button>
+<button class="control" onclick="play('audioPlayer_15', this)">T&ecircte de bite</button>
+<button class="control" onclick="play('audioPlayer_16', this)">Zookez-vous tranquille !!</button>
+<script>
+
+function play(idPlayer) {
+    var player = document.querySelector('#' + idPlayer);
+	player.currentTime = 0;
+        player.play();
+
+}
+</script>
+
+</body>
+</html>
